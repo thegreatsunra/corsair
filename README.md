@@ -1,4 +1,4 @@
-# corsair 0.1.0
+# corsair 0.2.1
 
 lightweight sketch prototyping environment with AngularJS. Generally based on the output of the [Yeoman web app generator](https://github.com/yeoman/generator-webapp) without all the cruft.
 

@@ -1,7 +1,7 @@
 {
   "name": "corsair",
   "description": "Lightweight sketch prototyping environment with Angular",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "author": "Dane Petersen",
   "licenses": [
     {
