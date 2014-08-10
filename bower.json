@@ -1,7 +1,7 @@
 {
-  "name": "jetfire",
-  "description": "Extremely lightweight web prototyping environment",
-  "version": "0.1.6",
+  "name": "corsair",
+  "description": "Lightweight sketch prototyping environment with Angular",
+  "version": "0.1.0",
   "authors": [
     "Dane Petersen"
   ],

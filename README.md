@@ -1,30 +1,28 @@
-# jetfire 0.1.6
+# corsair 0.1.0
 
-Extremely lightweight web prototyping environment. Based on the output of the [Yeoman web app generator](https://github.com/yeoman/generator-webapp) without all the cruft.
-
-Need something heavier duty, perhaps with templates, layouts, partials and LESS? Try [Propeller](https://github.com/thegreatsunra/propeller), jetfire's big brother.
+lightweight sketch prototyping environment with AngularJS. Generally based on the output of the [Yeoman web app generator](https://github.com/yeoman/generator-webapp) without all the cruft.
 
 ## Getting started
 
 1. Download and install [Node](http://nodejs.org)
 1. At the command line install [Bower](http://bower.io) and [Gulp](http://gulpjs.com) globally by typing `sudo npm install -g bower gulp`
-1. Clone this repository (or download and unzip it) to begin a new jetfire project
+1. Clone this repository (or download and unzip it) to begin a new corsair project
 
-### Now you're ready to use jetfire
+### Now you're ready to use corsair
 
-1. Open your new jetfire project at the command line
+1. Open your new corsair project at the command line
 1. Type `npm install && bower install` to install all dependencies
-1. Type `gulp` to start your development server. jetfire will monitor the `/app` folder, refresh your browser whenever it detects changes, and automatically lint all your JavaScript files
+1. Type `gulp` to start your development server. corsair will monitor the `/app` folder, refresh your browser whenever it detects changes, and automatically lint all your JavaScript files
 1. Open [http://localhost:9000](http://localhost:9000) in a web browser to view your site
 1. Modify the files in the `/app` folder to build your prototype
 
 ### A note about Gulp vs. Grunt
 
-jetfire includes support for both [Gulp](http://gulpjs.com) as well as [Grunt](http://gruntjs.com) for starting the development server and monitoring for changes. If it's all the same to you, we recommend you use Gulp because it's much faster.
+Corsair includes support for both [Gulp](http://gulpjs.com) as well as [Grunt](http://gruntjs.com) for starting the development server and monitoring for changes. If it's all the same to you, we recommend you use Gulp because it's much faster.
 
 If you prefer to use Grunt, make sure you have it installed globally by typing `sudo npm install -g grunt-cli` at the command line. After that, simply type `grunt` from your project folder instead of `gulp`, and Grunt will start up your development server.
 
-All the Grunt tasks for jetfire are defined in the Gruntfile.js file. Likewise, all the Gulp tasks are defined in the `gulpfile.js` file.
+All the Grunt tasks for corsair are defined in the Gruntfile.js file. Likewise, all the Gulp tasks are defined in the `gulpfile.js` file.
 
 ## License
 

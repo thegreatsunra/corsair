@@ -1,6 +1,6 @@
 /* ====================================
  *  Gruntfile.js
- *  generated using generator-jetfire v0.1.6
+ *  corsair v0.1.0
  * ===================================== */
 
 'use strict';
