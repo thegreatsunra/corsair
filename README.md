@@ -12,7 +12,7 @@ lightweight sketch prototyping environment with AngularJS. Generally based on th
 
 1. Open your new corsair project at the command line
 1. Type `npm install && bower install` to install all dependencies
-1. Type `gulp` to start your development server. corsair will monitor the `/app` folder, refresh your browser whenever it detects changes, and automatically lint all your JavaScript files
+1. Type `gulp` to start your development server. Corsair will monitor the `/app` folder, refresh your browser whenever it detects changes, and automatically lint all your JavaScript files
 1. Open [http://localhost:9000](http://localhost:9000) in a web browser to view your site
 1. Modify the files in the `/app` folder to build your prototype
 
