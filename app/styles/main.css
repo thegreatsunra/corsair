@@ -1,6 +1,6 @@
 /* ====================================
  *  main.less
  * ===================================== */
-h3.text-muted {
-  color: red !important;
+.header {
+  margin-bottom: 40px;
 }
