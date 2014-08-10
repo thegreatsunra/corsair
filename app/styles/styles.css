@@ -1,0 +1,17 @@
+/*---------------------------------------------------
+  LESS Manifest
+  ---------------------------------------------------*/
+/* 
+  Corsair will process any LESS files in this folder,
+  generating CSS files from them.
+*/
+.header {
+  margin-bottom: 40px;
+}
+/*
+[ng-click],
+[data-ng-click],
+[x-ng-click] {
+  cursor: pointer;
+}
+*/
