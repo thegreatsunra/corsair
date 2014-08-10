@@ -5,7 +5,8 @@
 'use strict';
 
 angular.module('home', [
-  'ui.router'
+  'ui.router',
+  'ui.bootstrap'
 ])
 .config(function($stateProvider) {
   $stateProvider
@@ -49,7 +50,33 @@ angular.module('home', [
       }
     });
 })
-.controller('HomeController', function(greeter) {
+.controller('HomeController', function($scope, $modal, $log, greeter) {
+
+
+  $scope.items = ['item1', 'item2', 'item3'];
+
+  $scope.open = function (size, view) {
+
+    var modalInstance = $modal.open({
+      templateUrl: view,
+      controller: ModalInstanceController,
+      size: size,
+      resolve: {
+        items: function () {
+          return $scope.items;
+        }
+      }
+    });
+
+    modalInstance.result.then(function (selectedItem) {
+      $scope.selected = selectedItem;
+    }, function () {
+      $log.info('Modal dismissed at: ' + new Date());
+    });
+  };
+
+
+
   console.log(greeter.greet('Dane'));
 })
 .service('UserService', function($timeout) {
@@ -63,3 +90,20 @@ angular.module('home', [
     }, 250);
   };
 });
+
+var ModalInstanceController = function($scope, $modalInstance, items) {
+
+  $scope.items = items;
+  $scope.selected = {
+    item: $scope.items[0]
+  };
+
+  $scope.ok = function () {
+    $modalInstance.close($scope.selected.item);
+  };
+
+  $scope.cancel = function () {
+    $modalInstance.dismiss('cancel');
+  };
+
+};

@@ -1,5 +1,9 @@
 <div id="content">
   <h2>This is the notifications view.</h2>
 
-  <p>A directive will eventually go here for notifications with ng-repeat, etc.</p>
+  <button class="btn btn-default" ng-click="open('md', 'scripts/home/modalContent.html')">Open me!</button>
+  <button class="btn btn-default" ng-click="open('lg', 'scripts/home/modalContent.html')">Large modal</button>
+  <button class="btn btn-default" ng-click="open('sm', 'scripts/home/modalContent.html')">Small modal</button>
+  <div ng-show="selected">Selection from a modal: {{ selected }}</div>
+
 </div>
