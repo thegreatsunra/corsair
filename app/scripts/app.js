@@ -4,7 +4,7 @@
 
 'use strict';
 
-angular.module('myUIRouterApp', [
+angular.module('corsairApp', [
   'ui.router',
   'home'
 ])
